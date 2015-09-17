@@ -1,6 +1,3 @@
-
-
-
 $(document).ready(function(){
   $('#accordion h3').click(function(){
     $('#accordion ul ul').slideUp();
@@ -8,5 +5,5 @@ $(document).ready(function(){
     {
       $(this).next().slideDown();
     }
-  })
+  });
 })
