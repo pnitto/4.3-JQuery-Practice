@@ -1,0 +1,54 @@
+@import url(http://thecodeplayer.com/uploads/fonts/fontawesome/css/font-awesome.min.css);
+
+
+
+#accordion{
+  background: #E5E5E5;
+  width: 254px;
+  box-shadow: #82972D;
+  color: white;
+  margin-left: 40%;
+  box-shadow: 0 5px 15px 1px rgba(0, 0, 0, 0.6),
+		0 0 200px 1px rgba(255, 255, 255, 0.5);
+}
+#accordion h3{
+  font-size: 12px;
+  line-height: 34px;
+  padding: 0 10px;
+  cursor: pointer;
+  background: #5E6066;
+}
+#accordion li {
+  list-style-type: none;
+  margin-bottom: -5%;
+}
+#accordion ul ul li a{
+  color: black;
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 30px;
+  display: block;
+  padding: 0 15px;
+  transition: all 0.15s;
+}
+#accordion h3:hover {
+  background: #82972D;
+  color: black;
+}
+#accordion ul ul {
+  display: none;
+}
+
+#accordion li.active ul {
+  display: block;
+}
+#accordion h3 span {
+  font-size: 16px;
+  margin-right: 10px;
+}
+#accordion h3:hover {
+  text-shadow: blue;
+}
+.main-ul {
+  margin-left: -16%;
+}
